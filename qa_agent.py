@@ -30,7 +30,7 @@ class QA:
         )
 
     async def execute(self) -> dict:
-        """Execute the full test workflow and return validated JSON result"""
+        """Execute the full test workflow and return dict of results"""
         full_task = self._build_task()
         agent = Agent(llm=self.llm, task=full_task)
         raw_result = await agent.run()
