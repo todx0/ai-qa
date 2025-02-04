@@ -10,3 +10,5 @@ While I’m personally not a fan of Gherkin syntax, it’s used in this demo for
     
 ## The Downsides
 Test results may be flaky and debugging experience is painful comparing to regular automation tests. 
+
+MAX RESPECT
