@@ -1,0 +1,12 @@
+[project]
+name = "python-ai-tests"
+version = "0.1.0"
+description = "AI QA assistant"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "browser-use>=0.1.36",
+    "playwright>=1.50.0",
+    "pytest>=8.3.4",
+    "pytest-asyncio>=0.25.3",
+]
